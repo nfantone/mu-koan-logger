@@ -4,7 +4,8 @@
   "description": "Winston logger for mu-kōän applications",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "validate": "gulp validate"
   },
   "repository": {
     "type": "git",
