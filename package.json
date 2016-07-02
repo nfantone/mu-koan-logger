@@ -1,6 +1,6 @@
 {
   "name": "mu-koan-logger",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "description": "Winston logger for mu-kōän applications",
   "main": "index.js",
   "scripts": {
@@ -50,5 +50,6 @@
   },
   "pre-commit": [
     "validate"
-  ]
+  ],
+  "codename": "Kindhearted kesa"
 }
