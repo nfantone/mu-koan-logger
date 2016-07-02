@@ -14,7 +14,7 @@ of prioritized rules.
    
 - If `options.logger` is a string, returns `winston.loggers.get(options.logger)`.
 - If `options.logger` is a `winston.Logger` instance, returns that same instance.
-- f it is neither, return winston's default logger.
+- If it is neither, return winston's default logger.
 
 
 ```javascript
