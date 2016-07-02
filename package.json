@@ -1,6 +1,6 @@
 {
   "name": "mu-koan-logger",
-  "version": "1.0.1-dev",
+  "version": "1.0.0-dev",
   "description": "Winston logger for mu-kōän applications",
   "main": "index.js",
   "scripts": {
