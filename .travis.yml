@@ -25,3 +25,4 @@ deploy:
   on:
     tags: true
     repo: nfantone/mu-koan-logger
+    node: '5'
