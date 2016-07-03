@@ -10,7 +10,7 @@
 npm i --save mu-koan-logger
 ```
 
-### Usage
+## Usage
 Returns a `winston.Logger` given an `options.logger` property and a set
 of prioritized rules.
    
