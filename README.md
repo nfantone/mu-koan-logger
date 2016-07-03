@@ -1,5 +1,7 @@
 # mu-kōän-logger 公案-ログ
 
+[![Build Status](https://travis-ci.org/nfantone/mu-koan-logger.svg?branch=master)](https://travis-ci.org/nfantone/mu-koan-logger)
+
 > A [winston][1] logger provider for [mu-kōän][2] applications.
 
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
@@ -8,7 +10,7 @@
 npm i --save mu-koan-logger
 ```
 
-### Usage
+## Usage
 Returns a `winston.Logger` given an `options.logger` property and a set
 of prioritized rules.
    

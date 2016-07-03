@@ -2,9 +2,11 @@ language: node_js
 node_js:
 - '5'
 - '6'
-only:
-- master
-- develop
+branches:
+  only:
+  - master
+  - develop
+  - /^v?(\d\.){2}\d$/
 notifications:
   email:
   - nfantone@gmail.com
@@ -19,7 +21,7 @@ deploy:
   provider: npm
   email: nfantone@gmail.com
   api_key:
-    secure: 0x3jePwOUnCz4ssysqkQg1XKIctAa4lvtx2KY761mBQK4nH4wzKiE5iMaK3QoGZgAAPCOGKLky3o5RTVuQbpwCLRQ4d0by2p3WhCXSHmM42Pe4Og57aA85LlG1brxtksoqPbbqCvxCgCi04yaNPc+s9jjywzPLny1IGuU49cLOX+lh5b6tHk9/mrzZHXIwdei47LhF5r1O3PFKP5WX5uKDe9kPTiT7zt4CEQZpfANXpSRqraAQZTtyDxuyOgoBZsoJCmjLQGXttWeXLeiMasSj57Zjq8wRSreMOdTOp/J0KaPK5W1YCQsmu5anuM7DmhmDs0A9DOewu/hQjVr3TlCsEYwNsJPdghNZvjlxv9XnNOCOo100adPc0Z1rKDBTkHxVAigRr+FSQ1fiYQx+1m+o7TUqb6ET9W/kxLMbUGL/5JgCaroyLCnRqUvP8A3vDftp0m37oWIZnnXqijtg//9Miab39xfeRkBfPpEUROXEQRwoV/4IhbBDjtJwZFxKY6vHGqO+596Rfmj04XEh/6pJtciDQQwESlANFt+ey0oxb0mLu7WtHfVWyguFNLnnCAwZBoOvZFkTgEZ3VwQq49MsPUO4O/8OkOn4hm43KbeIcMCB0/uF1Z2PuZSoPC9l93nXye8YlmkHTethyD7/K8vebQ5j/Zmy/08BVJsEsoju0=
+    secure: IlIQt6H0//xJrNvMbp1txXdPM9Qjob0xNtfd+g0PqM2KUGcHnL5V4kq7qtViJavJgBK3zO6rRSdtYZk0uurkLyvl7E8PPcHcOOzfe6OAlK9Ul0js066+kq3K9y91F36nJuyw4NnvSUFSpttVreIKrmz9zxufIAJCsnXeT0zNpOPbaZbveM0dD7J7UUMxdpjKgAIESU5ivRRk7lxl5skzaRr03HNYTpQXTX6U9fcTf5LGIpA4STUJVOTl0aYlvRVT+fADFKJmxn74NPsGl8606OCTqjfuTUf2fKXr88IW0a5rT35yEBMdgtchckjyOw3x4df2PWDp/OKas0hypcYQ0uKUdw9F2yZbXKre42+/npyUh6+24tw778H9UVCllX+CvUu+f7JmsADPE4kQ6fGHlDrH+UqnrZURM+45St7MZbtEs4OpaNpyFeP5PiDa+yWkK9c/7JELOdtsnnntwjCG9ot4eZ5kLSS6EVvaJJXs4AsiiikIO80Ksobe5pBc0AaIEprRkK0RKD1gS/sTAu43f64CYGX/bAmyoS9CqeXBNmSgOY/dI+kQdqfi9B/jVFKCvaS4n8V+ZxTMNNu4j+sOSMtkoXtUiYjJsuNSPd9+BOy8J0X69BvJ9tgYPyaWTTvJfBnTu/kSf/xusm8WOzYWCxD4GJ7u37QT1WArlT0BK3g=
   on:
     tags: true
     repo: nfantone/mu-koan-logger
