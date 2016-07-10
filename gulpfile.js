@@ -36,7 +36,6 @@ gulp.task('watch', () => gulp.watch(config.paths.src, ['validate']));
  */
 gulp.task('test', () => {
   process.env.NODE_ENV = 'test';
-  process.env['logger:level'] = 'error';
   return gulp.src(config.paths.src)
     // Covering files
     .pipe($.istanbul())
