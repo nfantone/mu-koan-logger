@@ -1,7 +1,7 @@
 {
   "name": "mu-koan-logger",
-  "version": "1.0.2-dev",
-  "codename": "Suicidal senpai",
+  "version": "1.0.2",
+  "codename": "Superornamental Sensei",
   "description": "Winston logger for mu-kōän applications",
   "main": "index.js",
   "scripts": {
