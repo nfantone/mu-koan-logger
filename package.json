@@ -34,7 +34,7 @@
     "eslint": "^3.0.1",
     "eslint-config-semistandard": "^7.0.0",
     "eslint-config-standard": "^6.0.0",
-    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-promise": "^3.3.2",
     "eslint-plugin-standard": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
