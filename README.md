@@ -1,5 +1,7 @@
 # mu-kōän-logger 公案-ログ
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nfantone/mu-koan-logger.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/nfantone/mu-koan-logger.svg?branch=master)](https://travis-ci.org/nfantone/mu-koan-logger)
 
 > A [winston][1] logger provider for [mu-kōän][2] applications.
